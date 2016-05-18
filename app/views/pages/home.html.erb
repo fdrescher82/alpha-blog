@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+#header {
+    background-color:#00802b;
+    color:white;
+    font-family:verdana;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    font-family:verdana;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+#section {
+    font-family:verdana;
+    width:450px;
+    float:left;
+    padding:10px; 
+}
+#footer {
+    background-color:#00802b;
+    color:white;
+    clear:both;
+    font-family:verdana;
+    text-align:center;
+    padding:5px; 
+}    
+</style>  
+</head>
+<body>
+   <div id="header">
+       <h1>Welcome to alpha-blog</h1>
+   </div> 
+   <div id="nav">
+       <%= link_to 'About page', about_path %><br>
+       Element 2<br>
+       Element 3
+   </div>
+   <div id="section">
+       <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+       </p>
+   </div>
+   <div id="footer">
+       This is the end.
+   </div>
+   
+</body>    
+</html>
