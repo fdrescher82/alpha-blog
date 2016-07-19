@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
   <title>blog-o-rama</title>
@@ -7,7 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <%= render 'layouts/navigation' %>
   <%= render 'layouts/messages' %>
-  <%= yield %>
+  
+  <div class="container">
+    <%= yield %>
+  </div>
+  
+  <%= render 'layouts/footer' %>
 </body>
 </html>
